@@ -1,0 +1,7 @@
+services:
+  ### Saga Repository
+  MicroModule\Saga\Storage\DBALSagaRepository:
+      public: true
+      arguments:
+        - '@doctrine.dbal.default_connection'
+        - 'sagas'
