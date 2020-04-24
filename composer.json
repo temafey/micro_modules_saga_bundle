@@ -5,7 +5,7 @@
     "license": ["proprietary"],
     "require": {
         "php": "^7.3",
-        "micro-module/saga": "^1.1"
+        "micro-module/saga": "^0.4"
     },
     "require-dev": {
         "php-parallel-lint/php-console-highlighter": "^0.4",
