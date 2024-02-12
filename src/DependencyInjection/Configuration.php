@@ -23,6 +23,6 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        return  new TreeBuilder('adgoal_saga');
+        return  new TreeBuilder('micro_saga');
     }
 }
