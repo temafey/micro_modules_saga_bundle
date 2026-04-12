@@ -5,7 +5,7 @@
     "license": ["proprietary"],
     "require": {
         "php": "^8.0",
-        "micro-module/saga": "^0.6.0"
+        "micro-module/saga": "^0.6.0 || ^0.7"
     },
     "require-dev": {
         "mockery/mockery": "^1.3",
